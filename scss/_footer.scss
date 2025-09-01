@@ -1,0 +1,47 @@
+footer{
+    padding: 50px 0;
+    background: #efe9e7;
+}
+.footer-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.widget{
+    width: 33.3333%;
+    margin: 0 0 20px;
+}
+.widget-title{
+    margin: 0 0 20px;
+}
+.widget-3{
+    text-align: right;
+}
+@media screen and (max-width:767px) {
+    .widget{
+        width: 100%;
+    }
+    .widget-3{
+        text-align: left;
+    }
+}
+
+.contact-list{
+    list-style: disc;
+    li{
+        margin: 0 0 8px;
+        a{
+            color:#282828;
+        }
+    }
+}
+
+.social-list li{
+    display: inline-block;
+    padding-right: 10px;
+    a{
+        color:#282828;
+    }
+    .bi{
+        font-size: 24px;
+    }
+}

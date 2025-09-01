@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--bootstrap-icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <!--<style>
+.section-login-title{
+    text-align: center;
+}
+.login-title{
+    font-size: 36px;
+    color: #3D1101;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+.login-text{
+    font-size: 20px;
+    color: #3D1101;
+    margin: 0 0 30px;
+}
+
+.templet-block {
+    text-align: center;
+}
+.templet-title{
+    margin: 0 0 20px;
+}
+.templet-block p, .templet label {
+    margin:10px 0;
+}
+.forget{
+    margin:20px 0;
+}
+    </style>-->
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color:#000005">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">西餐廳</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">   
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#featured-position">特色</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chief-position">主廚</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#res-position">地圖</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--hero section-->
+    <div class="hero-section">
+        <div class="overlay">
+            <h2 class="hero-section-title">咬一口就無法忘懷的漢堡</h2>
+            <div class="text">
+                <p class="hero-section-text">七夕絕對無法錯過的好滋味</p>
+                <p class="hero-section-text">六角大漢堡</p>
+            </div>
+            
+        </div>
+    </div>
+    <!--featured-->
+    <section class="section login">
+        <div class="container">
+            <div class="section-login-title">
+                <h2 class="login-title">Restaurant</h2>
+                <p class="login-text">享受美食好味道</p>
+            </div>
+            <div class="row">
+                <div class="col templet-block">
+                    <div class="templet-title">LOGIN</div>
+                    <div class="login-block-style login-email">
+                        <p>Email Address*</p>
+                        <label for="">
+                            <span class="glyphicon glyphicon-envelope email-icon" aria-hidden="true"></span>
+                            <input type="email" name="email">
+                        </label>
+                    </div>
+                    <div class="login-block-style login-password">
+                        <p>Password*</p>
+                        <label for="">
+                            <span class="glyphicon glyphicon-lock password-icon" aria-hidden="true"></span>
+                            <input type="password" name="password">
+                        </label>
+                        <div class="forget">忘記密碼？</div>
+                    </div>
+                    <div class="login-btn">
+                        <a href="javascript:" class="signBtn" value="">註冊</a>
+                        <a href="javascript:" class="loginBtn" value="">登入</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="widget widget-1">
+                    <h2 class="widget-title">關於 六角西餐廳</h2>
+                    <p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.</p>
+                </div>
+                <div class="widget widget-2">
+                    <h2 class="widget-title">聯絡方式</h2>
+                    <ul class="contact-list">
+                        <li><a href="#">高雄市中正五路到底</a></li>
+                        <li><a href="#">+886 886 886</a></li>
+                        <li><a href="mailto: service@hexschool.com"> service@hexschool.com</a></li>
+                    </ul>
+                </div>
+                <div class="widget widget-3">
+                    <h2 class="widget-title">Restaurant</h2>
+                    <ul class="social-list">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+   <!-- Bootstrap 5 JS + Popper CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

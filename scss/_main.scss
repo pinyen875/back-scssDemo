@@ -1,0 +1,141 @@
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 60px);  /* 更好看的版型*/
+    background-image: url(../images/header_desktop.png);
+    /*background-image:url(/images/header_desktop.jpg);*/
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:767px) {
+   .hero-section{
+        background-image: url(../images/header_mobile.png);
+   }
+}
+.overlay{
+    padding:15px;
+    text-align: center;
+}
+.hero-section-title{
+    color:#fff;
+    font-size: 36px;
+    margin: 0 0 15px;
+}
+.hero-section-text{
+    color:#fff;
+    font-size: 24px;
+    line-height: 38px;
+}
+.section {
+    padding: 50px 0;
+}   
+.section-featured{
+    background-color: #efe9e7;
+    text-align: center;
+}
+.section-header-title{
+    margin: 0 0 30px;
+    p{
+        font-size: 20px;
+        color: #3D1101;
+        line-height: 32px;
+    }
+}
+.catption{
+    margin: 15px 0 0;
+    padding:10px 0 0;
+    h2{
+        margin:0 0 15px;
+    }
+    p{
+        width: 95%;
+        font-size: 18px;
+        margin:0 0 15px;
+        text-align: justify;
+    }
+}
+
+.section-chief{
+    background-color: #3D1101;
+    color:#efe9e7;
+    img{
+        width: 100%;
+        text-align: right;
+    }
+    .title{
+        font-size: 22px;
+        line-height: 40px;
+        margin: 60px 0 0;
+    }
+    .subtitle{
+        font-size: 18px;
+        margin: 0 0 20px;
+    }
+    .content{
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+}
+.section-contact{
+    img{
+        width: 100%;
+        text-align: right;
+    }
+    .text{
+        text-align: center;
+        font-size: 24px;
+        line-height: 1.7;
+        color: #3D1101;
+    }
+} 
+
+.input-block{
+    margin:15px 0;
+    p{
+        padding-bottom: 10px;
+    }
+}
+.contact-us-block {
+    text-align: right;
+    .signBtn {
+        padding: 5px 8px;
+        background: rgba(0, 0, 0, 0.35);
+        outline: none;
+    }
+    .loginBtn {
+        padding: 5px 8px;
+        background: #F56C23;
+        outline: none;
+    }
+}
+.section-login-title{
+    text-align: center;
+}
+.login-title{
+    font-size: 36px;
+    color: #3D1101;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+.login-text{
+    font-size: 20px;
+    color: #3D1101;
+    margin: 0 0 30px;
+}
+
+.templet-block {
+    text-align: center;
+}
+.templet-title{
+    margin: 0 0 20px;
+}
+.templet-block p, .templet label {
+    margin:10px 0;
+}
+.forget{
+    margin:20px 0;
+}
